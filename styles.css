@@ -1,0 +1,273 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background: #E5E5E5;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+header h2 {
+  font-size: 48px;
+  padding: 1rem;
+}
+
+.toggle-button {
+  position: absolute;
+  top: 1.2rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.toggle-button span.bar {
+  height: 3px;
+  width: 100%;
+  background-color: #333;
+  border-radius: 10px;
+}
+
+.menu-div {
+  position: absolute;
+  right: 1rem;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: auto;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 0.5rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #4A4C59;
+}
+
+nav ul li a:hover {
+  color: #fff;
+  background-color: #4A4C59;
+  padding: 0.5rem;
+}
+
+.underlined {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.intro {
+  display: flex;
+  padding: 10% 0;
+}
+
+.intro-text {
+  width: 100%;
+  text-align: center;
+  color: #4A4C59;
+  /* margin: 1rem; */
+}
+
+.intro-text h2 {
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: normal;
+  padding: .5rem;
+}
+
+.intro-text p {
+  font-size: 30px;
+  line-height: 38px;
+  padding: .5rem;
+}
+
+.intro-icons {
+  position: absolute;
+  right: 5%;
+  margin-top: 3.5rem;
+}
+
+.intro-icons div {
+  margin: 1rem 0;
+}
+
+.intro-icons i {
+  font-size: 40px;
+}
+
+.arrow-down {
+  text-align: center;
+}
+
+.arrow-down i {
+  font-size: 40px;
+  color: #4A4C59;
+}
+
+.arrow-down i:hover {
+  cursor: pointer;
+  color: #000;
+}
+
+.small-txt {
+  font-size: 24px !important;
+}
+
+.bent {
+  font-style: italic;
+}
+
+.interest {
+  width: 60%;
+  margin: auto;
+}
+
+.social-media {
+  width: 30%;
+  margin: auto;
+  text-align: left;
+}
+
+@media screen and (max-width: 960px) {
+  .social-media {
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 866px) {
+  .interest {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 840px){
+    nav ul {
+    width: 80%;
+  }
+
+  .intro-icons {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  }
+
+  .intro-icons div {
+    padding: 1.5rem;
+  }
+
+  .intro {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 823px) {
+  .social-media {
+    width: 41%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  nav ul {
+    width: 90%;
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 646px) {
+  .interest {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .links {
+    display: none;
+  }
+
+  .toggle-button {
+    display: flex;
+  }
+
+  nav.active {
+    display: flex;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .intro-text p {
+    font-size: 27px;
+  }
+
+  .intro-text h2 {
+    font-size: 44px;
+  }
+}
+
+@media screen and (max-width: 523px) {
+  .intro-text h2 {
+    font-size: 40px;
+  }
+
+  .intro-text p {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 398px) {
+  .intro-text h2 {
+    font-size: 40px;
+  }
+
+  .intro-text p {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 398px) {
+  .intro-text h2 {
+    font-size: 40px;
+  }
+
+  .intro-text p {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .intro-text h2 {
+    font-size: 36px;
+  }
+
+  .intro-text p {
+    font-size: 19px;
+  }
+
+  header h2 {
+    font-size: 41px;
+  }
+}
