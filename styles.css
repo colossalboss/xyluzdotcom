@@ -8,6 +8,13 @@ body {
   background: #FAF0E6;
 }
 
+a, a:link, a:active, a:visited {
+  transition: color 0.25s ease-out; 
+  -webkit-transition: color 0.25s ease-out; 
+  -moz-transition: color 0.25s ease-out; 
+  -o-transition: color 0.25s ease-out;
+  }
+
 header {
   display: flex;
   justify-content: space-around;
@@ -114,6 +121,7 @@ nav ul li a:hover {
 
 .intro-icons i {
   font-size: 40px;
+  color: #4A4C59;
 }
 
 .arrow-down {
