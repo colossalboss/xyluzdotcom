@@ -2,14 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <title>Work</title>
+  <link rel="shortcut icon" type="image/jpeg" href="image/seyiFade.jpg">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="styles.css">
-  <title>Work</title>
 </head>
-<body>
+<body class="placeBox" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
   <header>
     <div class="header">
       <h2>xyluz.com</h2>
@@ -38,37 +40,45 @@
       <div class="intro">
         <div class="intro-text">
           <div>
-            <h2>Work</h2>
+            <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0" data-aos-easing="ease-in-out" data-aos-mirror="true">Work</h2>
           </div>
           <div>
-            <strong><p class="big-txt">CEO - HNG Tech</p></strong>
+            <strong><p class="big-txt" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" data-aos-easing="ease-in-out" data-aos-mirror="true">CEO - <span class="bent">HNG Tech</span></p></strong>
             <p class="small-txt">2019</p>
           </div>
           <div>
-            <strong><p>Creator - <span class="bent">Staybusy.ng</span></p></strong>
+            <strong><p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" data-aos-easing="ease-in-out" data-aos-mirror="true">Creator - <span class="bent">Staybusy.ng</span></p></strong>
             <p class="small-txt">Finalist - Year</p>
           </div>
         </div>
         <div class="intro-icons">
           <div>
-            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <a href="http://twitter.com/xyluz" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter" aria-hidden="true"></i></a>
           </div>
           <div>
-            <i class="fa fa-envelope" aria-hidden="true"></i>          </div>
+            <a href="mailto: seyi@hng.tech"><i class="fa fa-envelope" aria-hidden="true"></i></a>          </div>
         </div>
       </div>
 
       <div class="arrow-down">
         <div>
-          <i class="fa fa-angle-up" aria-hidden="true"></i>
+          <a href="education.html">
+            <i class="fa fa-angle-up" aria-hidden="true"></i>
+          </a>
         </div>
         <div>
-          <i class="fa fa-angle-down" aria-hidden="true"></i>
+          <a href="interests.html">
+            <i class="fa fa-angle-down" aria-hidden="true"></i>
+          </a>
         </div>
       </div>
     </div>
   </main>
 
   <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
